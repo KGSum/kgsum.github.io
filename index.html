@@ -5,369 +5,40 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
+  <meta name="description" content="Knowledge Graph Summarization Workshop">
   <meta name="author" content="">
 
   <title>KGSum</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/d31888bdaf.js" crossorigin="anonymous"></script>
+
 
 </head>
 
 <body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="http://kgsum.github.io">
-      <span class="d-block d-lg-none">KGSum</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/kgsum-logo.png" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#abstract">Summary</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#topics">Topics</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#motivation">Important Dates</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#audience">Paper Submission</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#papers">Accepted Papers</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#program">Program</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#organization">Committees</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <img src="banner.png" class="img-fluid" alt="Responsive image">
 
-  <div class="container-fluid p-0">
+    <div class="list-group">
+      <a href="2023/index.html" class="list-group-item list-group-item-action active" aria-current="true">
+        2023 Edition
+      </a>
+      <a href="2022/index.html" class="list-group-item list-group-item-action">2022 Edition</a>
+    </div> 
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="abstract">
-      <div class="w-100">
-        <h1 class="mb-0">International Workshop on
-          <span class="text-primary">Knowledge Graph Summarization</span>
-        </h1>
-        <div class="subheading mb-5">co-located with the 21st International Semantic Web Conference
-          <a href="https://iswc2022.semanticweb.org">ISWC 2022</a>
-        </div>
-        <p class="mb-0">There is a growing interest in generating summaries from the facts contained in a Knowledge Graph. Condensing relevant information into a few statistical data, sentences, paragraphs, or triplets is an emerging problem that remains to be solved as knowledge graphs increase complexity and expand in size and domains. Knowledge Graph Summarization (KGSum) aims at producing concise but informative descriptions of the content of a knowledge graph that help users to efficiently access and distill valuable information from it. Conversational systems, question-answering services or any other method leveraging the narrative content around the entities in a knowledge graph will benefit from these techniques. </p>
-	    </br>
-        <p class="mb-0">This <b>online workshop</b> welcomes a wide range of papers, including full research papers, negative results, position papers, datasets, and system demos, that explore a variety of issues and processes related to the creation of summaries from knowledge graphs, such as question-answering, graph-to-text transformations, and entity summarization, among others. Also welcome are papers on resources (methods, tools, benchmarks, libraries, and datasets).</p>
-<!--        <div class="social-icons">-->
-<!--          <a href="http://github.com/librairy">-->
-<!--            <i class="fab fa-github"></i>-->
-<!--          </a>-->
-<!--          <a href="https://twitter.com/librairy_fw">-->
-<!--            <i class="fab fa-twitter"></i>-->
-<!--          </a>-->
-<!--        </div>-->
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="topics">
-      <div class="w-100">
-        <h2 class="mb-5">Topics</h2>
-
-		<p class="mb-0">Researchers from multiple areas such as <b>Semantic Web</b>, <b>Linked Data</b>, <b>Natural Language Processing (NLP)</b>, <b>Entity Linking (EL)</b>, <b>Knowledge Representation and Reasoning (KRR)</b>, and other related fields will find opportunities to present and discuss about emerging research and applications, and to identify new opportunities that address the following topics (but not limited to):
-		  </p>
-		</br>
-        <p class="mb-0">
-			<ul>
-				<li><b>Methods to summarize KGs</b></li>
-				<ul>
-					<li>Research work and initiatives related to <b>verbalizing facts</b> expressed through subject-predicate-object triplets</li>
-					<li>Automatic generation of textual summaries as a way to <b>measure the quality of KGs</b></li>
-					<li>Integration between <b>Language Models and KGs</b></li>
-				</ul>
-				<li><b>KGs features related to summaries</b></li>
-				<ul>
-					<li>Special features/metadata from KGs to generate <b>coherent multi-sentence summaries</b></li>
-					<li>Extensions to current KGs formalisms to better <b>support summaries</b></li>
-					<li>Benefits of incorporating <b>automatic generation of textual summaries on KGs</b></li>
-				</ul>
-				<li><b>Scope and Impact of KG summaries</b></li>
-				<ul>
-					<li>Use cases and applications for <b>KGs summaries</b></li>
-					<li>Generating <b>adaptive summaries from KGs</b> so they suit the needs of the different agents consuming it.</li>
-					<li>Importance/role of KGs in the generation of <b>summaries that express complex ideas</b></li>
-					<li>How KGs in conjunction with textual summaries can be used to <b>improve QA systems</b></li>
-				</ul>
-			</ul>
-		</p>
-		</br>
-
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="motivation">
-      <div class="w-100">
-        <h2 class="mb-5">Important Dates</h2>
-		<p class="mb-0"><del>July 14</del> <b> July 21 (23:59 AoE), 2022:</b> Submission of papers</p>
-		  </br>
-		<p class="mb-0"><b>October 23 or 24, 2022:</b> Workshop</p> </br>         
-        <p class="mb-0">The workshop will be co-located with the International Semantic Web Conference (ISWC) to be held as a <b>online event</b> this year. More information on the <a href="https://iswc2022.semanticweb.org">ISWC webpage</a>.</p> 
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="audience">
-      <div class="w-100">
-        <h2 class="mb-5">Submission Guidelines</h2>
-		  <p class="mb-0">KGSum will be a half-day day workshop, divided in two sessions, each one followed by a discussion slot around the presented topics and a panel with a mixture of academic and industrial representatives.</p> 
-	</br>
-		<p class="mb-0">The papers can be submitted via <a href="https://easychair.org/conferences/?conf=kgsum2022">EasyChair</a>. All papers must be original and not simultaneously submitted to another journal or conference/workshop. All submissions must be in English (<a href="https://www.overleaf.com/latex/templates/template-for-submissions-to-ceur-workshop-proceedings-ceur-ws-dot-org/wqyfdgftmcfw">CEURART</a> format) and will be publicly available under <a href="https://creativecommons.org/licenses/by/4.0/">CC-by 4.0 license</a>.</p>
-	</br>
-<p class="mb-0">
-	    <ul>
-			<li>Full research papers (8-12 pages)</li>
-			<li>In-Use and Experience papers (8-12 pages)</li>
-			<li>Short research papers (4-6 pages)</li>
-			<li>System/demo/Position papers (4-6 pages)</li>
-		</ul>
-</p>
-     </br>
-		<p class="mb-0">The workshop follows a <b>double-blind review process</b>, where the identity of both authors and reviewers are concealed. Submitted papers must be anonymized. </p>
-		
-      </div>
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="papers">
-      <div class="w-100">
-      <h2 class="mb-5">Accepted Papers</h2>
-      
-      <p class="mb-0"><b>2022 KGSum Proceedings</b> available at <a href="http://ceur-ws.org/Vol-3257/">http://ceur-ws.org/Vol-3257</a></br></p>
-      </br>      
-
-      <p class="mb-0"><i class="fa-solid fa-scroll"></i>  <a href="http://ceur-ws.org/Vol-3257/paper12.pdf" target="_blank">Concrete Names for Complex Expressions in Ontologies: A Case Study on SNOMED CT,</a></br> 
-        <i>Christian Kindermann, Martin Georg Skjæveland</i></p> 
-      </br>
-      
-      <p class="mb-0"><i class="fa-solid fa-scroll"></i>  <a href="http://ceur-ws.org/Vol-3257/paper13.pdf" target="_blank">Summaries of Knowledge Graph Entities: first steps to measure the relevance of symptoms to infer diseases,</a></br> 
-      <i>Miguel Ángel Rodríguez-García, Carlos Badenes-Olmedo and Soto Montalvo Herranz</i></p>
-      </br>
-
-      <p class="mb-0"><i class="fa-solid fa-scroll"></i>  <a href="http://ceur-ws.org/Vol-3257/paper11.pdf" target="_blank">Narrativizing Knowledge Graphs,</a></br> 
-        <i>Robert Porzel, Mihai Pomarlan, Laura Spillner, John Bateman, Thomas Mildner and Carlo Santagiustina</i></p>
-      </br>
-
-      <p class="mb-0"><i class="fa-solid fa-scroll"></i>  <a href="http://ceur-ws.org/Vol-3257/paper14.pdf" target="_blank">Towards More Informative List Verbalisations,</a></br>
-       <i>Lea Krause, Pia Sommerauer and Piek Vossen</i></p>
-      </br>
-
-    
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="program">
-      <div class="w-100">
-      <h2 class="mb-5">Program</h2>
-      <p class="mb-0">Monday 24th October 2022</p> 
-      </br>
-      
-      <table class="table table-striped">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">CEST </br> (EU)</th>
-            <th scope="col">EST </br> (US)</th>
-            <th scope="col">CST </br> (China)</th>
-            <th scope="col">Schedule</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">10:00-</br>10:10</th>
-            <td>4:00-</br>4:10</td>
-            <td>16:00-</br>16:10</td>
-            <td><b>Opening </b>(Chair: Organizers)</br><a href="http://videolectures.net/iswc2022_badenes_olmedo_opening"><i class="fa fa-video-camera"></i></a></td>
-          </tr>
-          <tr>
-            <th scope="row">10:00-</br>10:10</th>
-            <td>4:00-</br>4:10</td>
-            <td>16:00-</br>16:10</td>
-            <td><b>Session 1 </b>(Chair: Jose Luis Redondo-García)</td>
-          </tr>
-          <tr>
-            <th scope="row"></th>
-            <td></td>
-            <td></td>
-            <td><b>Concrete Names for Complex Expressions in Ontologies: A Case Study on SNOMED CT</b></br> <i>Christian Kindermann, Martin Georg Skjæveland</i></br><a href="http://videolectures.net/iswc2022_kindermann_skjaeveland_names"><i class="fa fa-video-camera"></i></a></td>
-          </tr>
-          <tr>
-            <th scope="row"></th>
-            <td></td>
-            <td></td>
-            <td><b>Summaries of Knowledge Graph Entities: first steps to measure the relevance of symptoms to infer diseases</b></br> <i>Miguel Ángel Rodríguez-García, Carlos Badenes-Olmedo and Soto Montalvo Herranz</i></br><a href="http://videolectures.net/iswc2022_garcia_olmedo_summaries"><i class="fa fa-video-camera"></i></a></td>
-          </tr>
-          <tr>
-            <th scope="row">11:00-</br>12:00</th>
-            <td>5:00-</br>6:00</td>
-            <td>17:00-</br>18:00</td>
-            <td><b>Keynote</b> <a href="https://github.com/KGSum/kgsum.github.io/raw/main/docs/presentation.pdf"><i class="fa-sharp fa-solid fa-file-pdf"></i></a> address by <b>Thiago Castro Ferreira <a href="https://orcid.org/0000-0003-0200-3646"><i class="fa-brands fa-orcid"></i></a> </b>(Chair: Carlos Badenes-Olmedo)</br><a href="http://videolectures.net/iswc2022_castro_ferreira_keynote"><i class="fa fa-video-camera"></i></a></td>
-          </tr>          
-          <tr>
-            <th scope="row">12:00-</br>12:40</th>
-            <td>6:00-</br>6:40</td>
-            <td>18:00-</br>18:40</td>
-            <td><b>Break</b></td>
-          </tr>
-          <tr>
-            <th scope="row">12:40-</br>13:30</th>
-            <td>6:40-</br>7:30</td>
-            <td>18:40-</br>19:30</td>
-            <td><b>Session 2 </b>(Chair: Nandana Mihindukulasooriya)</td>
-          </tr>
-          <tr>
-            <th scope="row"></th>
-            <td></td>
-            <td></td>
-            <td><b>Narrativizing Knowledge Graphsz</b></br> <i>Robert Porzel, Mihai Pomarlan, Laura Spillner, John Bateman, Thomas Mildner and Carlo Santagiustina</i></br><a href="http://videolectures.net/iswc2022_porzel_pomarlan_narrativizing"><i class="fa fa-video-camera"></i></a></td>
-          </tr>
-          <tr>
-            <th scope="row"></th>
-            <td></td>
-            <td></td>
-            <td><b>Towards More Informative List Verbalisations</b></br> <i>Lea Krause, Pia Sommerauer and Piek Vossen</i></br><a href="http://videolectures.net/iswc2022_krause_sommerauer_towards"><i class="fa fa-video-camera"></i></a></td>
-          </tr>
-          <tr>
-            <th scope="row">13:30-</br>14:00</th>
-            <td>7:30-</br>8:00</td>
-            <td>19:30-</br>20:00</td>
-            <td><b>Discussion & Closing </b>(Chair: Maribel Acosta)</br><a href="http://videolectures.net/iswc2022_acosta_discussion_closing"><i class="fa fa-video-camera"></i></a></td>
-          </tr>
-        </tbody>
-      </table>
-      
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="organization">
-      <div class="w-100">
-        <h2 class="mb-5">Organization Committee</h2>
-		  </br>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/cbadenes.jpeg" height="15%" width="10%" alt="">    
-            <h3 class="mb-0">Carlos Badenes-Olmedo</h3>
-            <div class="subheading mb-3">OEG-UPM, Madrid, Spain</div>
-            <div class="subheading mb-3"> 
-              <a href="https://orcid.org/0000-0002-2753-9917"><i class="fa-brands fa-orcid"></i></a>
-              <a href="mailto:carlos.badenes@upm.es"><i class="fa-solid fa-envelope"></i></a>
-              <a href="https://about.me/cbadenes"><i class="fa-solid fa-house"></i></a>      
-            </div>
-            <p>Carlos Badenes-Olmedo is a post-doc researcher at the Onto-
-logical Engineering Group (OEG) of the Universidad Polit ́ecnica de Madrid (UPM), and co-founder of librairy.eu, a technology-based spin-off that facil- itates the exploration of large document corpora. His research on advanced techniques for knowledge extraction from unstructured data combines ma- chine learning, natural language processing and Knowledge Graphs. Carlos was finalist for the Technology Innovation Talent Awards organized by the Madrid City Council in 2021 and awarded one of the ActuaUPM Prizes for Technological Innovation in 2020.</p>
-          </div>          
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/jlredondo.jpeg" height="15%" width="10%" alt="">
-            <h3 class="mb-0">Jose Luis Redondo-Garcia</h3>
-            <div class="subheading mb-3">Amazon Alexa, Cambridge, UK</div>
-            <div class="subheading mb-3"> 
-              <a href="https://orcid.org/0000-0002-7413-447X"><i class="fa-brands fa-orcid"></i></a>
-              <a href="mailto:jluisred@amazon.com"><i class="fa-solid fa-envelope"></i></a>
-              <a href="http://jluisred.github.io/"><i class="fa-solid fa-house"></i></a>      
-            </div>
-            <p> Jose Luis Redondo-Garc ́ıa works as an applied scientist in the
-Alexa Natural Language Understanding team, focusing on making Alexa smarter and available in an ever-growing number of languages. He investi- gates the impact of incorporating sophisticated data selection methods and neural-based models into voice-enabled interactions. His evolving research interests include Natural Language Processing, Knowledge Representation, and Semantic Web. His work on automatically collecting and ranking con- textual entities in international news obtained the Best Paper Award at the international conference KCAP 2015. Jose Luis has worked as a Postdoc with the Ontology Engineering Group at the Artificial Intelligent Faculty, Universidad Politecnica de Madrid. From 2012 to 2016 he pursued his PhD with the Doctoral School Telecom Paristech, in France.</p>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/nandana.jpeg" height="15%" width="10%" alt="">
-            <h3 class="mb-0">Nandana Mihindukulasooriya</h3>
-            <div class="subheading mb-3">IBM Research AI</div>
-            <div class="subheading mb-3"> 
-              <a href="https://orcid.org/0000-0003-1707-4842"><i class="fa-brands fa-orcid"></i></a>
-              <a href="mailto:nandana@ibm.com"><i class="fa-solid fa-envelope"></i></a>
-              <a href="https://orcid.org/0000-0003-1707-4842"><i class="fa-solid fa-house"></i></a>      
-            </div>
-            <p>Nandana is a research scientist at IBM Research, Ireland. His
-research is focused on Knowledge Representation, Knowledge Graphs, Nat- ural Language Processing, and Knowledge Base Question Answering, and Nuero-Symbolic AI. He has published more than 60 peer-reviewed papers in prestigious journals, conferences, workshops on topics related to Knowledge Graphs and NLP. Nandana has previously organized two ISWC Challenges at ISWC 2020/2021 and other workshops at ESWC and K-CAP.</p>
-          </div>          
-        </div>
-		
-		<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-			<div class="resume-content">
-		    	<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/macosta2.jpeg" height="15%" width="10%" alt="">
-		            <h3 class="mb-0">Maribel Acosta</h3>
-		            <div class="subheading mb-3">Ruhr University Bochum</div>
-                <div class="subheading mb-3"> 
-                  <a href="https://orcid.org/0000-0002-1209-2868"><i class="fa-brands fa-orcid"></i></a>
-                  <a href="mailto:maribel.acosta@rub.de"><i class="fa-solid fa-envelope"></i></a>
-                  <a href="https://www.ini.rub.de/the institute/people/maribel-acosta"><i class="fa-solid fa-house"></i></a>      
-                </div>
-		            <p>Maribel Acosta is an Assistant Professor at the Ruhr-University
-Bochum, Germany, where she is the Head of the Database and Information Systems Group and a member of the Institute for Neural Computation (INI). Her research interests include KG sampling for summaries used during query processing and KG quality (completeness). More recently, she has applied Machine Learning approaches to these research topics. She has co-organiezed several workshops (e.g., CrowdSem@ISWC’13 and LDOW@WWW’19) and acted as Research Track Chair (ESWC’18, SEMANTiCS’19, ESWC’21) and PhD Symposium Chair (ESWC’20 and HCOMP’20).</p>
-		          </div>		          
-	     </div>
-		 
-		 <h3 class="mb-5">Programme Committee</h3>
-		 <ul>
-			 <li>Gaetano Rossiello, IBM Research</li>
-			 <li>Soto Montalvo, Universidad Rey Juan Carlos</li>
-			 <li>Emilio Monti, Amazon</li>
-			 <li>Pasquale Lisena, Eurecom</li>
-			 <li>Pablo Calleja Ibañez, Universidad Politécnica de Madrid</li>
-			 <li>Hegler Tissot, Drexel University</li>
-			 <li>Patricia Martín Chozas, Universidad Politécnica de Madrid</li>			 
-			 <li>Boris Villazon-Terrazas, EY wavespace</li>
-		 </ul>
-		
-		</br>         
-        <p class="mb-0">For contact details please send us an email to:  <a href="mailto:kgsum2022@easychair.org">kgsum2022@easychair.org</a></p>
-
-      </div>
-    </section>
-
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
